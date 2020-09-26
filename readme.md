@@ -8,10 +8,15 @@ This git contains some hashes of files which I would like to prove I that I have
   - not dependent on a single company or service running
   - long term ~10 years
   - able to survive multiple waves of inovation
+- security
+  - dont want to reveal file so must be able to give service only hash
+  - could get arrount this requirement by uploading encrypted document to the hash service and then keeping the key
 
 # Hashing
 - use the most crypto secure hash to make collision very hard
 - use multiple algos
+  - hashcheck makes it trivial to get CRC-32,SHA-1,SHA-256,SHA-512
+- curretly using hashcheck
 
 # Crypto solutions
 using some kind of blockchain approach to store the file hash.
