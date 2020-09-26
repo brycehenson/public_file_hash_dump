@@ -5,4 +5,5 @@ Will also investigate putting on blockchains.
 
 
 # Other solutions
-- https://github.com/mustafarefaey/PrivateStamp
+- [privatestamp](https://github.com/mustafarefaey/PrivateStamp)
+- [origin stamp](https://originstamp.com/) seems like a pretty good solution
