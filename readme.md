@@ -5,9 +5,13 @@ Will also investigate putting on blockchains.
 
 
 # Crypto solutions
+using some kind of blockchain approach
 - [privatestamp](https://github.com/mustafarefaey/PrivateStamp)
 - [origin stamp](https://originstamp.com/) seems like a pretty good solution but if the company goes under so does the proof. Maybe the hash directory can be downloaded.
 
 # public publish solutions
 publish the hash on a public form that would take substantial effort to modify.
+- github, is the commit hash secure?
 - twitter
+- facebook with permisions set to public
+- archive.com
