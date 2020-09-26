@@ -21,13 +21,13 @@ This git contains some hashes of files which I would like to prove I that I have
 
 # Crypto solutions
 using some kind of blockchain approach to store the file hash.
+- [origin stamp](https://originstamp.com/) 
+  - seems like a pretty good solution.
+  - not dependent on company existing if the raw Merkle Tree is downaloded and bitcoin ledger exists
 - [Proof of Existence](https://proofofexistence.com/)
   - currently charges 0.25 mBTC (~4 AUD) for each sorage
 - [privatestamp](https://github.com/mustafarefaey/PrivateStamp) 
   - if usage is low long term reliability is hard
-- [origin stamp](https://originstamp.com/) 
-  - seems like a pretty good solution.
-  - not dependent on company existing if the raw Merkle Tree is downaloded
 - [doc2block](https://doc2block.com/) adds to etherium, what is cost ? Not sure if just hash can be given to prevent sending file.
 
 # public publish solutions
