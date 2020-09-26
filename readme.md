@@ -1,4 +1,4 @@
-This git contains some hashes of files which I would like to prove I that I have.
+This git contains some hashes of files which I would like to prove I that I have eg proof of existence.
 
 # objectives
 - difficulty to fake
@@ -8,6 +8,7 @@ This git contains some hashes of files which I would like to prove I that I have
   - not dependent on a single company or service running
   - long term ~10 years
   - able to survive multiple waves of inovation
+  - on the user side need to store the unmodified file for as long as proof (obv).
 - security
   - dont want to reveal file so must be able to give service only hash
   - could get arrount this requirement by uploading encrypted document to the hash service and then keeping the key
@@ -15,13 +16,18 @@ This git contains some hashes of files which I would like to prove I that I have
 # Hashing
 - use the most crypto secure hash to make collision very hard
 - use multiple algos
-  - hashcheck makes it trivial to get CRC-32,SHA-1,SHA-256,SHA-512
+  - hashcheck and 7z makes it trivial produce multple hashes CRC-32,SHA-1,SHA-256,SHA-512
 - curretly using hashcheck
 
 # Crypto solutions
 using some kind of blockchain approach to store the file hash.
-- [privatestamp](https://github.com/mustafarefaey/PrivateStamp) if usage is low long term reliability is hard
-- [origin stamp](https://originstamp.com/) seems like a pretty good solution but if the company goes under so does the proof. Maybe the hash directory can be downloaded.
+- [Proof of Existence](https://proofofexistence.com/)
+  - currently charges 0.25 mBTC (~4 AUD) for each sorage
+- [privatestamp](https://github.com/mustafarefaey/PrivateStamp) 
+  - if usage is low long term reliability is hard
+- [origin stamp](https://originstamp.com/) 
+  - seems like a pretty good solution.
+  - not dependent on company existing if the raw Merkle Tree is downaloded
 - [doc2block](https://doc2block.com/) adds to etherium, what is cost ? Not sure if just hash can be given to prevent sending file.
 
 # public publish solutions
